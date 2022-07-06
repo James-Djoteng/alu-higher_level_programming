@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+import random
+number = random.randint(-10000, 10000)
+#!/usr/bin/python3
 word = "Holberton"
 word_first_3 = word[:3]
 word_last_2 = word[-2:]
