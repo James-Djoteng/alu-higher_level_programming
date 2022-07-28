@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python3
 """ contains the pascal_triangle function """
 
