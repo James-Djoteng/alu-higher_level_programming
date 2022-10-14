@@ -36,7 +36,7 @@ function requestStart (optionsUrl, saveValue) {
 }
 
 let i = 0;
-requestStart(options, function (dict, length) {
+requestStart (options, function (dict, length) {
   i++;
   if (i === length) {
     for (const name in dict) {
