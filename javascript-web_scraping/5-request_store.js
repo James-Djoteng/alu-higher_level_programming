@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const request = require('request');
 const fs = require('fs');
 
@@ -8,4 +9,3 @@ const FileName = process.argv[3];
 request
   .get(url)
   .pipe(fs.createWriteStream(FileName));
-  
